@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT;
 app.use(express.json());
 
-const { professions } = {
+const professions = {
   professions: [
     {
       id: '0',
